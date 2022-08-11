@@ -1,0 +1,83 @@
+:root {
+  --primary-color: #f05123;
+  --black-color: #000;
+  --white-color: #fff;
+  --gray-color: #666;
+  --text-color: #333;
+  --plum-color: #b80257;
+  --fb-color: #4080ff;
+  --mail-color: #f47425;
+  --invalid-color: #f33a58;
+  --desc-color: #0000008a;
+  --first-color: #1dbfaf;
+  --second-color: #1dbfaf;
+  --button-color: #1dbfaf;
+  --button-image: linear-gradient(70.06deg, #2cccff -5%, #22dfbf 106%);
+  --font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  --font-code: monospace;
+  --home-slideshow-left-space: 116px;
+  --home-section-left-space: 160px;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: var(--font-family);
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  overflow-y: overlay;
+  overscroll-behavior: none;
+  touch-action: manipulation;
+  -webkit-user-drag: none;
+  -ms-content-zooming: none;
+}
+
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-weight: 600;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a,
+a:focus,
+a:hover,
+a:visited {
+  outline: none;
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  html::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 0;
+  }
+  html::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
+  html::-webkit-scrollbar {
+    border-radius: 0;
+    height: 8px;
+    width: 8px;
+  }
+}
